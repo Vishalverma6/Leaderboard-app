@@ -1,0 +1,14 @@
+
+
+.leaderboard-container {
+    max-width: 430px;
+    margin: 0 auto;
+    background-color: #fffdf3;
+    min-height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+    border: 1px solid #e8c372;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+  }
+  
