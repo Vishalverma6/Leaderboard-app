@@ -1,6 +1,7 @@
 
 import React from 'react';
 import "../styles/LeaderboardList.css"
+import { FaStar } from 'react-icons/fa';
 
 
 const LeaderboardList = ({ paginatedUsers }) => {
@@ -17,7 +18,7 @@ const LeaderboardList = ({ paginatedUsers }) => {
           </div>
           <div className="user-info">
             <div className="user-name">{user.name}</div>
-            <div className="user-points">{user.points}</div>
+            <div className="user-points">{user.points} <FaStar className='star' /></div>
           </div>
         </div>
      )})}

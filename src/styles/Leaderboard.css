@@ -11,4 +11,9 @@
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     overflow: hidden;
   }
+
+  .back {
+    font-size: 26px;
+    margin: 19px 20px;
+  }
   

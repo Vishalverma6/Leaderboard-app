@@ -4,6 +4,7 @@ import TopThree from '../components/TopThree';
 import LeaderboardList from '../components/LeaderboardList';
 import Pagination from '../components/Pagination';
 import "../styles/Leaderboard.css"
+import { IoMdArrowRoundBack } from 'react-icons/io';
 
 const Leaderboard = () => {
   const topThree = mockUsers.slice(0, 3);
@@ -19,6 +20,7 @@ const Leaderboard = () => {
 
   return (
     <div className="leaderboard-container">
+      <IoMdArrowRoundBack className='back'/>
       <TopThree topThree={topThree} />
       <LeaderboardList paginatedUsers={paginatedUsers} />
       <Pagination
